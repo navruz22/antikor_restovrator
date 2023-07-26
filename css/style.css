@@ -503,7 +503,7 @@ ul.search li a:hover {
 
 .titlepage h2 {
      font-size: 40px;
-     color: #1c1c1c;
+     color: #000;
      line-height: 40px;
      font-weight: 700;
      padding: 0;
@@ -511,18 +511,43 @@ ul.search li a:hover {
 
 .titlepage_about h2 {
      font-size: 40px;
-     color: #1c1c1c;
+     color: #000;
      line-height: 40px;
      font-weight: 700;
      padding: 0;
 }
 
 .titlepage span {
-     font-size: 17px;
+     font-size: 21px;
      line-height: 25px;
-     color: #0a0a0a;
+     color: #000;
      padding-top: 30px;
      display: block;
+     font-weight: bold;
+}
+
+.titlepage pre {
+     font-size: 18px;
+     line-height: 25px;
+     color: #000;
+     padding-top: 30px;
+     display: block;
+     font-weight: bold;
+}
+
+.partner_block {
+     width: 285px; 
+     height: 198px;
+     margin-bottom: 20px;
+}
+
+.titlepage span p {
+     font-size: 21px;
+     line-height: 25px;
+     color: #000;
+     padding-top: 30px;
+     display: block;
+     font-weight: bold;
 }
 
 .d_flex {
@@ -602,10 +627,10 @@ ul.search li a:hover {
 }
 
 .about .titlepage {
-     max-width: 666px;
-     float: right;
+     /* max-width: 666px; */
+     /* float: right; */
      width: 100%;
-     text-align: left;
+     text-align: justify;
      padding-bottom: 0;
 }
 
@@ -770,7 +795,7 @@ ul.search li a:hover {
 }
 
 .choose .titlepage p {
-     color: #141414;
+     color: #fff;
      font-weight: 400;
      font-family: 'Raleway', sans-serif;
      font-size: 17px;
@@ -912,7 +937,7 @@ ul.social_icon_staff li a:hover {
 
 .contact {
      background: #fff;
-     margin-top: 90px;
+     padding-top: 90px;
 }
 
 .contact .titlepage {
@@ -1104,7 +1129,7 @@ ul.social_icon_staff li a:hover {
 /** footer **/
 
 .footer {
-     background: #161825;
+     background: #fff;
      padding-top: 90px;
      text-align: center;
 }
@@ -1143,7 +1168,7 @@ ul.social_icon_staff li a:hover {
      font-weight: bold;
      font-size: 17px;
      line-height: 24px;
-     border-bottom: #fff solid 1px;
+     border-bottom: #000 solid 1px;
      text-align: left;
      color: #fff;
      margin-bottom: 15px;
@@ -1341,6 +1366,10 @@ ul.insta li {
 
      .projects {
           padding-top: 0;
+     }
+
+     .partner_block {
+          width: 100%;
      }
 }
 
